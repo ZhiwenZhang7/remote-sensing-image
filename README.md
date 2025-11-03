@@ -84,7 +84,3 @@ python -c "from osgeo import gdal; print('GDAL', gdal.__version__)"  # 若安装
 
 ---
 
-如需，我可以：
-- 生成 `environment.yml` 或 `requirements.txt` 并写入仓库；
-- 把每个脚本的示例输入/输出路径改成相对路径并添加到 README 的示例中；
-- 或把 `question4.py` 的输出文件清单生成 `outputs_manifest.json`。告诉我你想要哪项，我继续完成。
