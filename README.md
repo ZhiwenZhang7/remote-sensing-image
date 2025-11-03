@@ -80,7 +80,6 @@ python -c "from osgeo import gdal; print('GDAL', gdal.__version__)"  # 若安装
 ## 五、注意事项与建议
 - 若只运行 `question4.py`，不需要安装 GDAL；若需处理 Landsat TIF/HDF，请使用 conda 安装 GDAL（conda-forge）。
 - 若运行 `question1.py`，需安装并配置 Py6S（并确认 6S 模型可用）。
-- 为保证可复现性，建议将 `environment.yml` 或 `requirements.txt` 加入仓库（我可以为你生成）。
 
 ---
 
