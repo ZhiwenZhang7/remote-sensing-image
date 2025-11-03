@@ -1,0 +1,12 @@
+numpy>=1.21
+scipy>=1.7
+scikit-image>=0.19
+scikit-learn>=1.0
+matplotlib>=3.4
+pillow>=8.0
+imageio>=2.9
+Py6S>=1.8
+# GDAL: 推荐使用 conda-forge 安装（Windows 下 pip 安装常有问题）
+GDAL>=3.3
+# 可选：用于更方便的栅格 I/O
+rasterio>=1.4
